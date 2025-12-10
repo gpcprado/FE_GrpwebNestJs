@@ -147,7 +147,7 @@ return (
 
                         <Button
                             type="button"
-                            onClick={() => router.push('/jobapplication/modifyapplication')}
+                            onClick={() => router.push('/modifyapplication')}
                             disabled={isLoading}
                             className="w-full py-2 px-4 bg-green-600 hover:bg-green-700 text-white font-medium rounded-md transition duration-200 flex items-center justify-center space-x-2 disabled:opacity-50"
                         >

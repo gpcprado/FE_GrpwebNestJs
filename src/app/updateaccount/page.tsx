@@ -283,7 +283,7 @@ export default function ProfilePage() {
         <div className="flex space-x-3 items-center justify-end p-4 border-t border-gray-200">
             <Button
                 className={`flex-shrink-0 ${BUTTON_BLUE_CLASSES}`}
-                onClick={() => router.push("/updateaccount")}
+                onClick={() => router.push("/profile/updateaccount")}
                 disabled={finalLoading}
             >
                 <Edit className="h-4 w-4 mr-2" /> Modify Profile
